@@ -72,7 +72,7 @@ int main() {
     for (int i = 0; i < N; i++) {
         free(array[i]);
     }
-    free(array);//можно подчистить и внутри, нужно иметь в виду, но он всё равно сам почистит
+    free(array);
 
     return EXIT_SUCCESS;
 }
